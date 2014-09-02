@@ -1206,10 +1206,7 @@ a.post-thumbnail:hover {
 .entry-content,
 .entry-summary,
 .page-content {
-	-webkit-hyphens: auto;
-	-moz-hyphens:    auto;
-	-ms-hyphens:     auto;
-	hyphens:         auto;
+	hyphens:         manual;
 	word-wrap: break-word;
 }
 
@@ -1680,6 +1677,10 @@ a.post-thumbnail:hover {
 .taxonomy-description a:hover,
 .author-description a:hover {
 	text-decoration: none;
+}
+
+.author-avatar {
+    margin-bottom: 10px;
 }
 
 
