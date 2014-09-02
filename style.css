@@ -4157,3 +4157,12 @@ a.post-thumbnail:hover {
 		line-height: 36px;
 	}
 }
+
+/**
+ * 13.0 Hacks
+ * -----------------------------------------------------------------------------
+ */
+
+div#theme-my-login.login div.wpua-edit-container {
+	display: none;
+}
