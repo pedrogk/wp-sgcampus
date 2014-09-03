@@ -8,7 +8,10 @@ function list_events_in_home_loop( $query ) {
 }
 add_filter( 'pre_get_posts', 'list_events_in_home_loop' );
 
-// register_taxonomy_for_object_type('category', 'events');
+function sgcampus_textdomain_setup() {
+	load_child_theme_textdomain( 'sgcampus',  get_stylesheet_directory() . '/languages' );
+}
+add_action( 'after_setup_theme', 'sgcampus_textdomain_setup' );
 
 function sgcampus_meta_time() {
   if ( is_sticky() && is_home() && ! is_paged() ) {
