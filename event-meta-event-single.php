@@ -34,7 +34,7 @@
 	<hr>
 
 	<!-- Event details -->
-		<h4><?php _e('Event Details', 'eventorganiser') ;?></h4>
+		<h4><?php _e('Event Details', 'sgcampus') ;?></h4>
 
 		<!-- Is event recurring or a single event -->
 		<?php if( eo_reoccurs() ):?>
@@ -43,11 +43,11 @@
 
 			<?php if($next): ?>
 				<!-- If the event is occurring again in the future, display the date -->
-				<?php printf('<p>'.__('This event is running from %1$s until %2$s. It is next occurring on %3$s','eventorganiser').'.</p>', eo_get_schedule_start('j F Y'), eo_get_schedule_last('j F Y'), $next);?>
+				<?php printf('<p>'.__('This event is running from %1$s until %2$s. It is next occurring on %3$s','sgcampus').'.</p>', eo_get_schedule_start('j F Y'), eo_get_schedule_last('j F Y'), $next);?>
 	
 			<?php else: ?>
 				<!-- Otherwise the event has finished (no more occurrences) -->
-				<?php printf('<p>'.__('This event finished on %s','eventorganiser').'.</p>', eo_get_schedule_last('d F Y',''));?>
+				<?php printf('<p>'.__('This event finished on %s','sgcampus').'.</p>', eo_get_schedule_last('d F Y',''));?>
 			<?php endif; ?>
 		<?php endif; ?>
 
@@ -55,22 +55,22 @@
 
 		<?php if( !eo_reoccurs() ){ ?>
 				<!-- Single event -->
-				<li><strong><?php _e('Start', 'eventorganiser') ;?>:</strong> <?php eo_the_start($date_format); ?> </li>
+				<li><strong><?php _e('Start', 'sgcampus') ;?>:</strong> <?php eo_the_start($date_format); ?> </li>
 				<?php
 		 } ?>
 
 		<?php if( eo_get_venue() ){ ?>
-			<li><strong><?php _e('Venue','eventorganiser'); ?>:</strong> <a href="<?php eo_venue_link(); ?>"> <?php eo_venue_name(); ?></a></li>
+			<li><strong><?php _e('Venue','sgcampus'); ?>:</strong> <a href="<?php eo_venue_link(); ?>"> <?php eo_venue_name(); ?></a></li>
 		<?php } ?>
 
 
 		<?php if( get_the_terms(get_the_ID(),'event-category') ){ ?>
-			<li><strong><?php _e('Categories','eventorganiser'); ?>:</strong> <?php echo get_the_term_list( get_the_ID(),'event-category', '', ', ', '' ); ?></li>
+			<li><strong><?php _e('Categories','sgcampus'); ?>:</strong> <?php echo get_the_term_list( get_the_ID(),'event-category', '', ', ', '' ); ?></li>
 		<?php } ?>
 
 	
 		<?php if( get_the_terms(get_the_ID(),'event-tag') && !is_wp_error( get_the_terms(get_the_ID(),'event-tag') ) ){ ?>
-			<li><strong><?php _e('Tags','eventorganiser'); ?>:</strong> <?php echo get_the_term_list( get_the_ID(),'event-tag', '', ', ', '' ); ?></li>
+			<li><strong><?php _e('Tags','sgcampus'); ?>:</strong> <?php echo get_the_term_list( get_the_ID(),'event-tag', '', ', ', '' ); ?></li>
 		<?php } ?>
 
 		<?php if( eo_reoccurs() ){ 			
@@ -85,7 +85,7 @@
 	
 				if( $upcoming->have_posts() ): ?>
 
-					<li><strong><?php _e('Upcoming Dates','eventorganiser'); ?>:</strong>
+					<li><strong><?php _e('Upcoming Dates','sgcampus'); ?>:</strong>
 						<ul id="eo-upcoming-dates">
 							<?php while( $upcoming->have_posts() ): $upcoming->the_post(); ?>
 									<li> <?php eo_the_start($date_format) ?></li>
