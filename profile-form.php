@@ -26,21 +26,21 @@ Theme My Login will always look in your theme's directory first, before using th
 
 		<?php do_action( 'profile_personal_options', $profileuser ); ?>
 
-		<h3><?php _e( 'Name' ); ?></h3>
+		<h3><?php _e( 'Student name', 'theme-my-login' ); ?></h3>
 
 		<table class="form-table">
 		<tr>
-			<th><label for="user_login"><?php _e( 'Username' ); ?></label></th>
+			<th><label for="user_login"><?php _e( 'Username', 'theme-my-login' ); ?></label></th>
 			<td><input type="text" name="user_login" id="user_login" value="<?php echo esc_attr( $profileuser->user_login ); ?>" disabled="disabled" class="regular-text" /> <span class="description"><?php _e( 'Your username cannot be changed.', 'theme-my-login' ); ?></span></td>
 		</tr>
 
 		<tr>
-			<th><label for="first_name"><?php _e( 'First Name', 'learndash' ); ?></label></th>
+			<th><label for="first_name"><?php _e( 'First Name', 'theme-my-login' ); ?></label></th>
 			<td><input type="text" name="first_name" id="first_name" value="<?php echo esc_attr( $profileuser->first_name ); ?>" class="regular-text" /></td>
 		</tr>
 
 		<tr>
-			<th><label for="last_name"><?php _e( 'Last Name', 'learndash' ); ?></label></th>
+			<th><label for="last_name"><?php _e( 'Last Name', 'theme-my-login' ); ?></label></th>
 			<td><input type="text" name="last_name" id="last_name" value="<?php echo esc_attr( $profileuser->last_name ); ?>" class="regular-text" /></td>
 		</tr>
 
@@ -50,7 +50,7 @@ Theme My Login will always look in your theme's directory first, before using th
 		</tr>
 
 		<tr>
-			<th><label for="display_name"><?php _e( 'Display name publicly as', 'learndash' ); ?></label></th>
+			<th><label for="display_name"><?php _e( 'Display name publicly as', 'theme-my-login' ); ?></label></th>
 			<td>
 				<select name="display_name" id="display_name">
 				<?php
@@ -86,7 +86,7 @@ Theme My Login will always look in your theme's directory first, before using th
 		</tr>
 		</table>
 
-		<h3><?php _e( 'Contact Info' ); ?></h3>
+		<h3><?php _e( 'Contact Info', 'theme-my-login' ); ?></h3>
 
 		<table class="form-table">
 		<tr>
@@ -95,7 +95,7 @@ Theme My Login will always look in your theme's directory first, before using th
 		</tr>
 
 		<tr>
-			<th><label for="url"><?php _e( 'Website' ); ?></label></th>
+			<th><label for="url"><?php _e( 'Website', 'theme-my-login' ); ?></label></th>
 			<td><input type="text" name="url" id="url" value="<?php echo esc_attr( $profileuser->user_url ); ?>" class="regular-text code" /></td>
 		</tr>
 
@@ -110,14 +110,17 @@ Theme My Login will always look in your theme's directory first, before using th
 			}
 		?>
 		</table>
+        
+        <?php do_action( 'show_user_profile', $profileuser ); ?>
+
 
 		<h3><?php _e( 'About Yourself', 'theme-my-login' ); ?></h3>
 
 		<table class="form-table">
 		<tr>
-			<th><label for="description"><?php _e( 'Biographical Info' ); ?></label></th>
+			<th><label for="description"><?php _e( 'Bio', 'theme-my-login' ); ?></label></th>
 			<td><textarea name="description" id="description" rows="5" cols="30"><?php echo esc_html( $profileuser->description ); ?></textarea><br />
-			<span class="description"><?php _e( 'Share a little biographical information to fill out your profile. This may be shown publicly.' ); ?></span></td>
+			<span class="description"><?php _e( 'Share a little biographical information to fill out your profile. This may be shown publicly.', 'theme-my-login' ); ?></span></td>
 		</tr>
 
 		<?php
@@ -125,17 +128,16 @@ Theme My Login will always look in your theme's directory first, before using th
 		if ( $show_password_fields ) :
 		?>
 		<tr id="password">
-			<th><label for="pass1"><?php _e( 'New Password' ); ?></label></th>
-			<td><input type="password" name="pass1" id="pass1" size="16" value="" autocomplete="off" /> <span class="description"><?php _e( 'If you would like to change the password type a new one. Otherwise leave this blank.' ); ?></span><br />
-				<input type="password" name="pass2" id="pass2" size="16" value="" autocomplete="off" /> <span class="description"><?php _e( 'Type your new password again.' ); ?></span><br />
+			<th><label for="pass1"><?php _e( 'New Password', 'theme-my-login' ); ?></label></th>
+			<td><input type="password" name="pass1" id="pass1" size="16" value="" autocomplete="off" /> <span class="description"><?php _e( 'If you would like to change the password type a new one. Otherwise leave this blank.', 'theme-my-login' ); ?></span><br />
+				<input type="password" name="pass2" id="pass2" size="16" value="" autocomplete="off" /> <span class="description"><?php _e( 'Type your new password again.', 'theme-my-login' ); ?></span><br />
 				<div id="pass-strength-result"><?php _e( 'Strength indicator', 'theme-my-login' ); ?></div>
-				<p class="description indicator-hint"><?php _e( 'Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! " ? $ % ^ &amp; ).' ); ?></p>
+				<p class="description indicator-hint"><?php _e( 'Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! " ? $ % ^ &amp; ).', 'theme-my-login' ); ?></p>
 			</td>
 		</tr>
 		<?php endif; ?>
 		</table>
 
-		<?php do_action( 'show_user_profile', $profileuser ); ?>
 
 		<p class="submit">
 			<input type="hidden" name="action" value="profile" />

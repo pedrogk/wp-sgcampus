@@ -70,8 +70,7 @@
             <?php
             the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyfourteen' ) );
             
-            $session_time = get_field('cuando');
-            $session_link = get_field('link');
+            $session_link = get_field('link-registro');
             $session_grabacion = get_field('grabacion');
             if ($session_time)
                 echo "<p>Fecha de transmisión: <br />$session_time</p>";
