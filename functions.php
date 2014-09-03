@@ -12,7 +12,7 @@ add_filter( 'pre_get_posts', 'list_events_in_home_loop' );
 
 function sgcampus_meta_time() {
   if ( is_sticky() && is_home() && ! is_paged() ) {
-    echo '<span class="featured-post">' . __( 'Sticky', 'twentyfourteen' ) . '</span>';
+    echo '<span class="featured-post">' . __( 'Sticky', 'sgcampus' ) . '</span>';
   }
 
   $timestampStr = esc_attr( get_the_date('c') );

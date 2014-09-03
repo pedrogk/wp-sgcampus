@@ -43,11 +43,11 @@ $category_list = get_the_term_list( get_the_ID(), $customtax, '', ', ','');
 
         if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
         ?>
-            <span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'twentyfourteen' ), __( '1 Comment', 'twentyfourteen' ), __( '% Comments', 'twentyfourteen' ) ); ?></span>
+            <span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'sgcampus' ), __( '1 Comment', 'sgcampus' ), __( '% Comments', 'sgcampus' ) ); ?></span>
         <?php
         endif;
 
-	edit_post_link( __( 'Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
+	edit_post_link( __( 'Edit', 'sgcampus' ), '<span class="edit-link">', '</span>' );
         ?>
         </div><!-- .entry-meta -->
     <?php 
@@ -76,7 +76,7 @@ $category_list = get_the_term_list( get_the_ID(), $customtax, '', ', ','');
     <?php else : ?>
         <div class="entry-content single">
             <?php
-            the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyfourteen' ) );
+            the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'sgcampus' ) );
             
             $session_link = get_field('link-registro');
             $session_grabacion = get_field('grabacion');
@@ -88,7 +88,7 @@ $category_list = get_the_term_list( get_the_ID(), $customtax, '', ', ','');
                 echo $session_grabacion;
 
             wp_link_pages( array(
-                'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentyfourteen' ) . '</span>',
+                'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'sgcampus' ) . '</span>',
                 'after'       => '</div>',
                 'link_before' => '<span>',
                 'link_after'  => '</span>',
