@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-SGCampus vv0.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-03 20:24:24+0000\n"
+"Last-Translator: adminmx <campus@sg.com.mx>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: MEXICO\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: content.php:46
+#@ sgcampus
+msgid "Leave a comment"
+msgstr "Comentar"
+
+#: content.php:46
+#@ sgcampus
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: content.php:46
+#@ sgcampus
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#: content.php:50
+#: single-event.php:71
+#@ sgcampus
+#@ default
+msgid "Edit"
+msgstr "Editar"
+
+#: content.php:79
+#@ sgcampus
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuar leyendo <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:91
+#@ sgcampus
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: event-meta-event-single.php:37
+#@ eventorganiser
+msgid "Event Details"
+msgstr ""
+
+#: event-meta-event-single.php:46
+#, php-format
+#@ eventorganiser
+msgid "This event is running from %1$s until %2$s. It is next occurring on %3$s"
+msgstr ""
+
+#: event-meta-event-single.php:50
+#, php-format
+#@ eventorganiser
+msgid "This event finished on %s"
+msgstr ""
+
+#: event-meta-event-single.php:58
+#@ eventorganiser
+msgid "Start"
+msgstr ""
+
+#: event-meta-event-single.php:63
+#@ eventorganiser
+msgid "Venue"
+msgstr ""
+
+#: event-meta-event-single.php:68
+#@ eventorganiser
+msgid "Categories"
+msgstr ""
+
+#: event-meta-event-single.php:73
+#@ eventorganiser
+msgid "Tags"
+msgstr ""
+
+#: event-meta-event-single.php:88
+#@ eventorganiser
+msgid "Upcoming Dates"
+msgstr ""
+
+#: functions.php:18
+#@ sgcampus
+msgid "Sticky"
+msgstr "Sticky"
+
+#: header.php:49
+#@ sgcampus
+msgid "Search"
+msgstr "Buscar"
+
+#: header.php:53
+#@ sgcampus
+msgid "Primary Menu"
+msgstr "Menú Principal"
+
+#: header.php:54
+#@ sgcampus
+msgid "Skip to content"
+msgstr "Ir al contenido"
+
+#: profile-form.php:19
+#@ default
+msgid "Personal Options"
+msgstr ""
+
+#: profile-form.php:29
+#@ theme-my-login
+msgid "Student name"
+msgstr ""
+
+#: profile-form.php:33
+#@ theme-my-login
+msgid "Username"
+msgstr ""
+
+#: profile-form.php:34
+#@ theme-my-login
+msgid "Your username cannot be changed."
+msgstr ""
+
+#: profile-form.php:38
+#@ theme-my-login
+msgid "First Name"
+msgstr ""
+
+#: profile-form.php:43
+#@ theme-my-login
+msgid "Last Name"
+msgstr ""
+
+#: profile-form.php:48
+#@ default
+msgid "Nickname"
+msgstr ""
+
+#: profile-form.php:48
+#: profile-form.php:93
+#@ default
+msgid "(required)"
+msgstr ""
+
+#: profile-form.php:53
+#@ theme-my-login
+msgid "Display name publicly as"
+msgstr ""
+
+#: profile-form.php:89
+#@ theme-my-login
+msgid "Contact Info"
+msgstr ""
+
+#: profile-form.php:93
+#@ default
+msgid "E-mail"
+msgstr ""
+
+#: profile-form.php:98
+#@ theme-my-login
+msgid "Website"
+msgstr ""
+
+#: profile-form.php:117
+#@ theme-my-login
+msgid "About Yourself"
+msgstr ""
+
+#: profile-form.php:121
+#@ theme-my-login
+msgid "Bio"
+msgstr ""
+
+#: profile-form.php:123
+#@ theme-my-login
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr ""
+
+#: profile-form.php:131
+#@ theme-my-login
+msgid "New Password"
+msgstr ""
+
+#: profile-form.php:132
+#@ theme-my-login
+msgid "If you would like to change the password type a new one. Otherwise leave this blank."
+msgstr ""
+
+#: profile-form.php:133
+#@ theme-my-login
+msgid "Type your new password again."
+msgstr ""
+
+#: profile-form.php:134
+#@ theme-my-login
+msgid "Strength indicator"
+msgstr ""
+
+#: profile-form.php:135
+#@ theme-my-login
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr ""
+
+#: profile-form.php:146
+#@ default
+msgid "Update Profile"
+msgstr ""
+
+#: simple-user-listing/content-author.php:18
+#, php-format
+#@ simple-user-listing
+msgctxt "number of posts"
+msgid "%n post"
+msgid_plural "%n posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: single-event.php:58
+#, php-format
+#@ eventorganiser
+msgid "This event was posted in %1$s by <a href=\"%5$s\">%4$s</a>. Bookmark the <a href=\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: single-event.php:60
+#, php-format
+#@ eventorganiser
+msgid "This event was posted by <a href=\"%5$s\">%4$s</a>. Bookmark the <a href=\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
