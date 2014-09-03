@@ -10,16 +10,25 @@
  */
 ?>
 
+<?php
+switch (get_post_type()) {
+    case 'event':
+    $customtax = 'event-category';
+    break;
+
+    default:
+    $customtax = 'category';
+}
+$category_list = get_the_term_list( get_the_ID(), $customtax, '', ', ','');
+?>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <?php twentyfourteen_post_thumbnail(); ?>
     <header class="entry-header">
-        <?php 
-        if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
-            <div class="entry-meta">
-                <span class="cat-links"><?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'sgcampus' ) ); ?></span>
-            </div>
+        <div class="entry-meta">
+            <span class="cat-links"><?php echo $category_list; ?></span>
+        </div>
         <?php
-        endif;
 
         if ( is_single() ) :
             the_title( '<h1 class="entry-title">', '</h1>' );
@@ -30,8 +39,7 @@
 
         <div class="entry-meta">
         <?php
-        if ( 'post' == get_post_type() )
-	    twentyfourteen_posted_on();
+	sgcampus_meta_time();
 
         if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
         ?>
