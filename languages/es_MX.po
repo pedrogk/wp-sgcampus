@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WP-SGCampus vv0.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-09-03 20:24:24+0000\n"
+"PO-Revision-Date: 2014-09-04 04:45:37+0000\n"
 "Last-Translator: adminmx <campus@sg.com.mx>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,96 +21,171 @@ msgstr ""
 "X-Textdomain-Support: yes"
 
 #: content.php:46
+#: single-event.php:28
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-aside.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-audio.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-gallery.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-image.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-link.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-quote.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-video.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content.php:38
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:194
 #@ sgcampus
+#@ twentyfourteen
 msgid "Leave a comment"
 msgstr "Comentar"
 
 #: content.php:46
+#: single-event.php:28
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-aside.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-audio.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-gallery.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-image.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-link.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-quote.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-video.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content.php:38
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:194
 #@ sgcampus
+#@ twentyfourteen
 msgid "1 Comment"
 msgstr "1 Comentario"
 
 #: content.php:46
+#: single-event.php:28
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-aside.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-audio.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-gallery.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-image.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-link.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-quote.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-video.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content.php:38
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:194
 #@ sgcampus
+#@ twentyfourteen
 msgid "% Comments"
 msgstr "% Comentarios"
 
 #: content.php:50
-#: single-event.php:71
+#: single-event.php:33
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-aside.php:40
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-audio.php:40
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-gallery.php:40
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-image.php:40
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-link.php:40
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-page.php:28
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-quote.php:40
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-video.php:40
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content.php:42
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/image.php:34
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/page-templates/contributors.php:35
 #@ sgcampus
-#@ default
+#@ twentyfourteen
 msgid "Edit"
 msgstr "Editar"
 
 #: content.php:79
+#: single-event.php:55
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-aside.php:46
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-audio.php:46
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-gallery.php:46
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-image.php:46
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-link.php:46
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-quote.php:46
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-video.php:46
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content.php:54
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:127
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:172
 #@ sgcampus
+#@ twentyfourteen
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Continuar leyendo <span class=\"meta-nav\">&rarr;</span>"
 
 #: content.php:91
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-aside.php:48
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-audio.php:48
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-gallery.php:48
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-image.php:48
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-link.php:48
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-page.php:22
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-quote.php:48
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-video.php:48
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content.php:56
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/image.php:54
 #@ sgcampus
+#@ twentyfourteen
 msgid "Pages:"
 msgstr "Páginas:"
 
 #: event-meta-event-single.php:37
-#@ eventorganiser
+#@ sgcampus
 msgid "Event Details"
 msgstr ""
 
 #: event-meta-event-single.php:46
 #, php-format
-#@ eventorganiser
+#@ sgcampus
 msgid "This event is running from %1$s until %2$s. It is next occurring on %3$s"
 msgstr ""
 
 #: event-meta-event-single.php:50
 #, php-format
-#@ eventorganiser
+#@ sgcampus
 msgid "This event finished on %s"
 msgstr ""
 
 #: event-meta-event-single.php:58
-#@ eventorganiser
+#@ sgcampus
 msgid "Start"
 msgstr ""
 
 #: event-meta-event-single.php:63
-#@ eventorganiser
+#@ sgcampus
 msgid "Venue"
 msgstr ""
 
 #: event-meta-event-single.php:68
-#@ eventorganiser
+#@ sgcampus
 msgid "Categories"
 msgstr ""
 
 #: event-meta-event-single.php:73
-#@ eventorganiser
+#@ sgcampus
 msgid "Tags"
 msgstr ""
 
 #: event-meta-event-single.php:88
-#@ eventorganiser
+#@ sgcampus
 msgid "Upcoming Dates"
 msgstr ""
 
 #: functions.php:18
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/template-tags.php:104
 #@ sgcampus
+#@ twentyfourteen
 msgid "Sticky"
 msgstr "Sticky"
 
 #: header.php:49
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/header.php:48
 #@ sgcampus
+#@ twentyfourteen
 msgid "Search"
 msgstr "Buscar"
 
 #: header.php:53
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/header.php:52
 #@ sgcampus
+#@ twentyfourteen
 msgid "Primary Menu"
 msgstr "Menú Principal"
 
 #: header.php:54
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/header.php:53
 #@ sgcampus
+#@ twentyfourteen
 msgid "Skip to content"
 msgstr "Ir al contenido"
 
@@ -229,15 +304,480 @@ msgid_plural "%n posts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: single-event.php:58
-#, php-format
-#@ eventorganiser
-msgid "This event was posted in %1$s by <a href=\"%5$s\">%4$s</a>. Bookmark the <a href=\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/404.php:17
+#@ twentyfourteen
+msgid "Not Found"
 msgstr ""
 
-#: single-event.php:60
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/404.php:21
+#@ twentyfourteen
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/archive.php:31
 #, php-format
-#@ eventorganiser
-msgid "This event was posted by <a href=\"%5$s\">%4$s</a>. Bookmark the <a href=\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+#@ twentyfourteen
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/archive.php:34
+#, php-format
+#@ twentyfourteen
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/archive.php:34
+#@ twentyfourteen
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/archive.php:37
+#, php-format
+#@ twentyfourteen
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/archive.php:37
+#@ twentyfourteen
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/archive.php:40
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/taxonomy-post_format.php:51
+#@ twentyfourteen
+msgid "Archives"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/author.php:31
+#, php-format
+#@ twentyfourteen
+msgid "All posts by %s"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/category.php:20
+#, php-format
+#@ twentyfourteen
+msgid "Category Archives: %s"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/comments.php:27
+#, php-format
+#@ twentyfourteen
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/comments.php:34
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/comments.php:52
+#@ twentyfourteen
+msgid "Comment navigation"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/comments.php:35
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/comments.php:53
+#@ twentyfourteen
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/comments.php:36
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/comments.php:54
+#@ twentyfourteen
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/comments.php:59
+#@ twentyfourteen
+msgid "Comments are closed."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-aside.php:17
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-audio.php:17
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-featured-post.php:28
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-gallery.php:17
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-image.php:17
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-link.php:17
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-quote.php:17
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-video.php:17
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content.php:19
+#@ twentyfourteen
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-none.php:12
+#@ twentyfourteen
+msgid "Nothing Found"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-none.php:18
+#, php-format
+#@ twentyfourteen
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-none.php:22
+#@ twentyfourteen
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/content-none.php:27
+#@ twentyfourteen
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/footer.php:21
+#@ twentyfourteen
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/footer.php:21
+#, php-format
+#@ twentyfourteen
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:83
+#@ twentyfourteen
+msgid "Top primary menu"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:84
+#@ twentyfourteen
+msgid "Secondary menu in left sidebar"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:171
+#@ twentyfourteen
+msgid "Primary Sidebar"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:173
+#@ twentyfourteen
+msgid "Main sidebar that appears on the left."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:180
+#@ twentyfourteen
+msgid "Content Sidebar"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:182
+#@ twentyfourteen
+msgid "Additional sidebar that appears on the right."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:189
+#@ twentyfourteen
+msgid "Footer Widget Area"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:191
+#@ twentyfourteen
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:213
+#@ twentyfourteen
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:254
+#@ twentyfourteen
+msgid "Previous"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:255
+#@ twentyfourteen
+msgid "Next"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:372
+#, php-format
+#@ twentyfourteen
+msgid "%d Article"
+msgid_plural "%d Articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/functions.php:488
+#, php-format
+#@ twentyfourteen
+msgid "Page %s"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/image.php:65
+#@ twentyfourteen
+msgid "Previous Image"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/image.php:66
+#@ twentyfourteen
+msgid "Next Image"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/back-compat.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/back-compat.php:47
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/back-compat.php:60
+#, php-format
+#@ twentyfourteen
+msgid "Twenty Fourteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:19
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:20
+#@ twentyfourteen
+msgid "Background may only be visible on wide screens."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:28
+#@ twentyfourteen
+msgid "Site Title Color"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:31
+#@ twentyfourteen
+msgid "Display Site Title &amp; Tagline"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:35
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/featured-content.php:408
+#@ twentyfourteen
+msgid "Featured Content"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:36
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/featured-content.php:409
+#, php-format
+#@ twentyfourteen
+msgid "Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:37
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:102
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/featured-content.php:410
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/featured-content.php:419
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/featured-content.php:479
+#@ twentyfourteen
+msgctxt "featured content default tag slug"
+msgid "featured"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:50
+#@ twentyfourteen
+msgid "Layout"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:54
+#@ twentyfourteen
+msgid "Grid"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:55
+#@ twentyfourteen
+msgid "Slider"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:99
+#@ twentyfourteen
+msgid "Twenty Fourteen"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:102
+#, php-format
+#@ twentyfourteen
+msgid "The home page features your choice of up to 6 posts prominently displayed in a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed instead."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:103
+#, php-format
+#@ twentyfourteen
+msgid "Enhance your site design by using <a href=\"%s\">Featured Images</a> for posts you&rsquo;d like to stand out (also known as post thumbnails). This allows you to associate an image with your post without inserting it. Twenty Fourteen uses featured images for posts and pages&mdash;above the title&mdash;and in the Featured Content area on the home page."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/customizer.php:104
+#, php-format
+#@ twentyfourteen
+msgid "For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s\">Twenty Fourteen documentation</a>."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/featured-content.php:431
+#@ twentyfourteen
+msgid "Tag Name"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/featured-content.php:436
+#@ twentyfourteen
+msgid "Don&rsquo;t display tag on front end."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/template-tags.php:45
+#@ twentyfourteen
+msgid "&larr; Previous"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/template-tags.php:46
+#@ twentyfourteen
+msgid "Next &rarr;"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/template-tags.php:53
+#@ twentyfourteen
+msgid "Posts navigation"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/template-tags.php:80
+#@ twentyfourteen
+msgid "Post navigation"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/template-tags.php:84
+#, php-format
+#@ twentyfourteen
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/template-tags.php:86
+#, php-format
+#@ twentyfourteen
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/template-tags.php:87
+#, php-format
+#@ twentyfourteen
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:34
+#@ twentyfourteen
+msgid "Twenty Fourteen Ephemera"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:36
+#@ twentyfourteen
+msgid "Use this widget to list your recent Aside, Quote, Video, Audio, Image, Gallery, and Link posts."
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:54
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/taxonomy-post_format.php:33
+#@ twentyfourteen
+msgid "Images"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:55
+#@ twentyfourteen
+msgid "More images"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:58
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/taxonomy-post_format.php:36
+#@ twentyfourteen
+msgid "Videos"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:59
+#@ twentyfourteen
+msgid "More videos"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:62
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/taxonomy-post_format.php:39
+#@ twentyfourteen
+msgid "Audio"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:63
+#@ twentyfourteen
+msgid "More audio"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:66
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/taxonomy-post_format.php:42
+#@ twentyfourteen
+msgid "Quotes"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:67
+#@ twentyfourteen
+msgid "More quotes"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:70
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/taxonomy-post_format.php:45
+#@ twentyfourteen
+msgid "Links"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:71
+#@ twentyfourteen
+msgid "More links"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:74
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/taxonomy-post_format.php:48
+#@ twentyfourteen
+msgid "Galleries"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:75
+#@ twentyfourteen
+msgid "More galleries"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:79
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/taxonomy-post_format.php:30
+#@ twentyfourteen
+msgid "Asides"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:80
+#@ twentyfourteen
+msgid "More asides"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:162
+#, php-format
+#@ twentyfourteen
+msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
+msgid_plural "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: used with More archives link
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:206
+#, php-format
+#@ twentyfourteen
+msgid "%s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:255
+#@ twentyfourteen
+msgid "Title:"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:258
+#@ twentyfourteen
+msgid "Number of posts to show:"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/inc/widgets.php:261
+#@ twentyfourteen
+msgid "Post format to show:"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/search.php:18
+#, php-format
+#@ twentyfourteen
+msgid "Search Results for: %s"
+msgstr ""
+
+#: /var/www/sites/sgcampus/wp-content/themes/twentyfourteen/tag.php:22
+#, php-format
+#@ twentyfourteen
+msgid "Tag Archives: %s"
 msgstr ""
 
