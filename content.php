@@ -79,13 +79,8 @@ $category_list = get_the_term_list( get_the_ID(), $customtax, '', ', ','');
             the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'sgcampus' ) );
             
             $session_link = get_field('link-registro');
-            $session_grabacion = get_field('grabacion');
-            if ($session_time)
-                echo "<p>Fecha de transmisión: <br />$session_time</p>";
             if ($session_link)
-                echo "<p>Enlace: <br /><a href='$session_link' target='_blank'>$session_link</a></p>";
-            if ($session_grabacion)
-                echo $session_grabacion;
+                echo "<p>Regístrate en: <br /><a href='$session_link' target='_blank'>$session_link</a></p>";
 
             wp_link_pages( array(
                 'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'sgcampus' ) . '</span>',
